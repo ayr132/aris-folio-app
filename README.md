@@ -28,10 +28,10 @@ Built with **Vue 3**, **Vue Router** and **Tailwind CSS**, on top of the
 Needs [Node.js](https://nodejs.org/) 18 or newer.
 
 ```bash
-cd vuejs-tailwindcss-portfolio
+cd my-portfolio
 npm install
 npm run serve      # dev server at http://localhost:8080
-npm run build      # production build in vuejs-tailwindcss-portfolio/dist
+npm run build      # production build in my-portfolio/dist
 ```
 
 From the repository root, `npm run dev` and `npm run build` do the same.
@@ -42,11 +42,11 @@ Most content lives in plain data files, so you rarely need to touch the componen
 
 | To change | Edit |
 |---|---|
-| Projects (title, description, link, category, icon) | `vuejs-tailwindcss-portfolio/src/data/projects.js` |
-| Contact email, WhatsApp, and where the forms send to | `vuejs-tailwindcss-portfolio/src/data/contact.js` |
-| Footer social links | `vuejs-tailwindcss-portfolio/src/data/socialLinks.js` |
-| Bio | `vuejs-tailwindcss-portfolio/src/components/about/AboutMe.vue` |
-| Home intro | `vuejs-tailwindcss-portfolio/src/components/shared/AppBanner.vue` |
+| Projects (title, description, link, category, icon) | `my-portfolio/src/data/projects.js` |
+| Contact email, WhatsApp, and where the forms send to | `my-portfolio/src/data/contact.js` |
+| Footer social links | `my-portfolio/src/data/socialLinks.js` |
+| Bio | `my-portfolio/src/components/about/AboutMe.vue` |
+| Home intro | `my-portfolio/src/components/shared/AppBanner.vue` |
 
 Icons are [Feather icons](https://feathericons.com); use the icon's name, for example `book-open`.
 
@@ -54,4 +54,4 @@ Icons are [Feather icons](https://feathericons.com); use the icon's name, for ex
 
 Based on [vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio)
 by Nangialai Stoman, released under the MIT License (see
-[`vuejs-tailwindcss-portfolio/LICENSE`](vuejs-tailwindcss-portfolio/LICENSE)).
+[`my-portfolio/LICENSE`](my-portfolio/LICENSE)).

@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm --prefix vuejs-tailwindcss-portfolio run serve",
-    "build": "npm --prefix vuejs-tailwindcss-portfolio run build",
+    "dev": "npm --prefix my-portfolio run serve",
+    "build": "npm --prefix my-portfolio run build",
     "lint": "oxlint"
   },
   "devDependencies": {
