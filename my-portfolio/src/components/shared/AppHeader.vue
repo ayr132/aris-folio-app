@@ -71,10 +71,20 @@ export default {
 					<router-link
 						to="/"
 						exact-active-class="logo-active"
-						class="font-general-semibold text-3xl text-ternary-dark dark:text-primary-light"
-						aria-label="Aris, home"
-						>Aris<span class="text-indigo-500 dark:text-indigo-300">.</span></router-link
+						class="block"
+						aria-label="Aris Syazwan Zainul Aman, home"
 					>
+						<img
+							src="@/assets/images/logo.png"
+							alt="ASZA, Aris Syazwan Zainul Aman"
+							class="h-12 sm:h-14 w-auto dark:hidden"
+						/>
+						<img
+							src="@/assets/images/logo-dark.png"
+							alt="ASZA, Aris Syazwan Zainul Aman"
+							class="h-12 sm:h-14 w-auto hidden dark:block"
+						/>
+					</router-link>
 				</div>
 
 				<!-- Theme switcher small screen -->
@@ -124,7 +134,7 @@ export default {
 				<div class="hidden md:block">
 					<Button
 						title="Hire Me"
-						class="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
+						class="text-md font-general-medium bg-brand-500 hover:bg-brand-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 						@click="showModal()"
 						aria-label="Hire Me Button"
 					/>
@@ -151,8 +161,8 @@ export default {
 
 <style scoped>
 #nav a.router-link-exact-active {
-	@apply text-indigo-700;
-	@apply dark:text-indigo-400;
+	@apply text-brand-700;
+	@apply dark:text-brand-400;
 	@apply font-medium;
 }
 </style>

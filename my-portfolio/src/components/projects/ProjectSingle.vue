@@ -17,11 +17,11 @@ export default {
 		:class="
 			project.url
 				? 'hover:shadow-xl hover:-translate-y-1 cursor-pointer'
-				: 'border-2 border-dashed border-indigo-200 dark:border-secondary-dark'
+				: 'border-2 border-dashed border-brand-200 dark:border-secondary-dark'
 		"
 	>
 		<span
-			class="flex items-center justify-center w-12 h-12 mb-5 rounded-xl bg-indigo-50 dark:bg-secondary-dark text-indigo-500 dark:text-indigo-300"
+			class="flex items-center justify-center w-12 h-12 mb-5 rounded-xl bg-brand-50 dark:bg-secondary-dark text-brand-500 dark:text-brand-300"
 		>
 			<FeatherIcon :name="project.icon" />
 		</span>
@@ -41,7 +41,7 @@ export default {
 		</p>
 		<span
 			v-if="project.url"
-			class="font-general-medium flex items-center gap-2 text-indigo-500 dark:text-indigo-300"
+			class="font-general-medium flex items-center gap-2 text-brand-500 dark:text-brand-300"
 		>
 			{{ project.linkText }}
 			<FeatherIcon
@@ -52,7 +52,7 @@ export default {
 		</span>
 		<span
 			v-else
-			class="self-start font-general-medium text-sm px-3 py-1 rounded-full bg-indigo-50 dark:bg-secondary-dark text-indigo-500 dark:text-indigo-300"
+			class="self-start font-general-medium text-sm px-3 py-1 rounded-full bg-brand-50 dark:bg-secondary-dark text-brand-500 dark:text-brand-300"
 		>
 			<span class="animate-pulse">●</span> {{ project.status }}
 		</span>

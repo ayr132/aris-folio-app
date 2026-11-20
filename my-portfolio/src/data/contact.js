@@ -1,6 +1,6 @@
 // TODO: replace the placeholder email and WhatsApp number with your real details.
 // The contact form and "Hire me" form open the visitor's email app addressed to CONTACT_EMAIL.
-export const CONTACT_EMAIL = 'you@example.com';
+export const CONTACT_EMAIL = 'ariszainul0408@gmail.com';
 
 export const contacts = [
 	{
@@ -13,9 +13,9 @@ export const contacts = [
 	{
 		id: 2,
 		label: 'WhatsApp',
-		name: '+60 00-000 0000',
+		name: '+60 19-4959639',
 		icon: 'phone',
-		url: 'https://wa.me/60000000000',
+		url: 'https://wa.me/60194959639',
 	},
 	{
 		id: 3,

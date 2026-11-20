@@ -16,7 +16,7 @@ export default {
 					href="https://github.com/realstoman/vuejs-tailwindcss-portfolio"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500"
+					class="hover:underline hover:text-brand-600 dark:hover:text-brand-300 duration-500"
 					>Vue.js &amp; Tailwind CSS Portfolio</a
 				>
 				template.

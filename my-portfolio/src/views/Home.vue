@@ -69,7 +69,7 @@ export default {
 					class="group flex flex-col text-left rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 p-7 bg-secondary-light dark:bg-ternary-dark duration-300"
 				>
 					<span
-						class="flex items-center justify-center w-12 h-12 mb-5 rounded-xl bg-indigo-50 dark:bg-secondary-dark text-indigo-500 dark:text-indigo-300"
+						class="flex items-center justify-center w-12 h-12 mb-5 rounded-xl bg-brand-50 dark:bg-secondary-dark text-brand-500 dark:text-brand-300"
 					>
 						<FeatherIcon :name="item.icon" />
 					</span>
@@ -88,7 +88,7 @@ export default {
 						{{ item.text }}
 					</p>
 					<span
-						class="font-general-medium flex items-center gap-2 text-indigo-500 dark:text-indigo-300"
+						class="font-general-medium flex items-center gap-2 text-brand-500 dark:text-brand-300"
 					>
 						{{ item.link }}
 						<FeatherIcon
@@ -104,7 +104,7 @@ export default {
 		<div class="mt-10 sm:mt-20 flex justify-center">
 			<router-link
 				to="/projects"
-				class="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
+				class="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg hover:shadow-xl bg-brand-500 hover:bg-brand-600 focus:ring-1 focus:ring-brand-900 text-white text-lg sm:text-xl duration-300"
 			>
 				All Projects
 			</router-link>

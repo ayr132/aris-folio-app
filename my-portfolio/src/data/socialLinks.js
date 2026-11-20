@@ -1,4 +1,3 @@
-// TODO: replace the placeholder email with your real address (also in src/data/contact.js).
 export const socialLinks = [
 	{
 		id: 1,
@@ -14,8 +13,14 @@ export const socialLinks = [
 	},
 	{
 		id: 3,
+		name: 'LinkedIn',
+		icon: 'linkedin',
+		url: 'https://www.linkedin.com/in/aris-syazwan-b58270432/',
+	},
+	{
+		id: 4,
 		name: 'Email',
 		icon: 'mail',
-		url: 'mailto:you@example.com',
+		url: 'mailto:ariszainul0408@gmail.com',
 	},
 ];

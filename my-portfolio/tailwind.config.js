@@ -17,9 +17,23 @@ module.exports = {
 				'secondary-light': '#FFFFFF',
 				'ternary-light': '#f6f7f8',
 
-				'primary-dark': '#0D2438',
-				'secondary-dark': '#102D44',
-				'ternary-dark': '#1E3851',
+				'primary-dark': '#0E1733',
+				'secondary-dark': '#121E40',
+				'ternary-dark': '#1B2A55',
+
+				// Brand blues, from the ASZA logo: 400, 500 and 600 are the logo's three colours.
+				brand: {
+					50: '#EEF3FC',
+					100: '#DCE6F9',
+					200: '#BCCFF3',
+					300: '#9AB6EC',
+					400: '#6C93E0',
+					500: '#446BCC',
+					600: '#2B4EBC',
+					700: '#233F9A',
+					800: '#1D3379',
+					900: '#172859',
+				},
 			},
 			container: {
 				padding: {

@@ -27,12 +27,12 @@ export default {
 						:href="contact.url"
 						:target="contact.url.startsWith('http') ? '_blank' : undefined"
 						rel="noopener noreferrer"
-						class="flex items-center gap-4 px-5 py-4 rounded-xl border border-gray-200 dark:border-secondary-dark hover:border-indigo-400 dark:hover:border-indigo-400 duration-300"
+						class="flex items-center gap-4 px-5 py-4 rounded-xl border border-gray-200 dark:border-secondary-dark hover:border-brand-400 dark:hover:border-brand-400 duration-300"
 					>
 						<FeatherIcon
 							:name="contact.icon"
 							:size="20"
-							class="text-indigo-500 dark:text-indigo-300"
+							class="text-brand-500 dark:text-brand-300"
 						/>
 						<span>
 							<small class="block text-sm text-gray-500 dark:text-gray-400">{{

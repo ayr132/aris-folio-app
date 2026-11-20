@@ -58,7 +58,7 @@ export default {
 }
 
 .vue-back-to-top {
-	@apply p-2 bg-indigo-500 hover:bg-indigo-600 text-white transition
+	@apply p-2 bg-brand-500 hover:bg-brand-600 text-white transition
         duration-500
         ease-in-out
         transform

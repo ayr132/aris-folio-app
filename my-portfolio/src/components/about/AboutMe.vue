@@ -6,15 +6,15 @@ export default {
 			bios: [
 				{
 					id: 1,
-					bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+					bio: 'I am a final year student at Islamic University of Malaysia (IIUM) majoring in Information Technology, specializing in Digital Media Design.',
 				},
 				{
 					id: 2,
-					bio: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+					bio: 'I was born in Pahang, Malaysia, and I have a passion for web development and design. I enjoy creating visually appealing and user-friendly websites that provide a seamless experience for users.',
 				},
 				{
 					id: 3,
-					bio: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+					bio: 'I am a creative and detail-oriented individual with a strong foundation in both design and development. I strive to create innovative solutions that meet the needs of users and stakeholders.',
 				},
 			],
 		};
@@ -24,14 +24,15 @@ export default {
 
 <template>
 	<div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-		<!-- Avatar (swap for a photo: <img src="@/assets/images/your-photo.jpg" class="rounded-xl w-96" alt="Aris">) -->
+		<!-- Avatar -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
-			<div
-				class="aspect-square w-full max-w-[16rem] rounded-xl bg-indigo-50 dark:bg-ternary-dark border border-indigo-100 dark:border-secondary-dark flex items-center justify-center font-general-semibold text-7xl text-indigo-500 dark:text-indigo-300"
-				aria-hidden="true"
-			>
-				A
-			</div>
+			<img
+				src="@/assets/images/aris-about.jpg"
+				alt="Aris Syazwan Zainul Aman"
+				width="640"
+				height="905"
+				class="w-full max-w-[16rem] aspect-[4/5] object-cover object-top rounded-xl shadow-lg ring-1 ring-brand-100 dark:ring-secondary-dark"
+			/>
 		</div>
 
 		<div class="w-full sm:w-3/4 text-left">
